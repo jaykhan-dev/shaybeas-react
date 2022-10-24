@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Lexend&family=Michroma&family=Orbitron&family=Space+Grotesk&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Lexend&family=Michroma&family=Orbitron&family=Space+Grotesk&display=swap');
 
 /*
 font-family: 'Electrolize', sans-serif;
@@ -11,6 +11,13 @@ font-family: 'Michroma', sans-serif;
 font-family: 'Orbitron', sans-serif;
 font-family: 'Space Grotesk', sans-serif;
 */
+
+h1 {
+  font-family: 'Michroma', sans-serif;
+}
+p {
+  font-family: 'Lexend', sans-serif;
+}
 
 body,
 html {
@@ -30,13 +37,6 @@ html {
 
 #hero-bg {
   background-image: url('./assets/landscape.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#welcome-bg {
-  background-image: url('./assets/borg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

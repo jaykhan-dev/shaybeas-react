@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="text-white bg-fixed" id="footer-bg">
-      <div className="flex justify-center bg-black/50 py-20">
+      <div className="flex justify-center bg-black/30 py-20">
         <div className="lg:w-2/3">
           <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-lg px-4">
             <button className="bg-black px-4 uppercase">Contact Us</button>
@@ -18,7 +18,7 @@ const Footer = () => {
                 <p className="my-8">shaybeasenterprises@gmail.com</p>
               </a>
             </div>
-            <div className="backdrop-blur-lg col-span-2 border border-white/25 p-4 rounded-lg grid place-items-center">
+            <div className="backdrop-blur-lg lg:col-span-2 border border-white/25 p-4 rounded-lg grid place-items-center">
               <form action="" className="grid grid-cols-2 gap-4">
                 <div className="space-y-2 flex flex-col">
                   <input

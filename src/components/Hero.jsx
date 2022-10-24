@@ -1,8 +1,8 @@
 const Hero = () => {
   return (
     <section className="bg-fixed" id="hero-bg">
-      <div className="grid place-items-center py-20 bg-black/80 hover:bg-black/70 duration-300 text-white">
-        <div className="py-20">
+      <div className="grid place-items-center py-20 bg-gradient-to-b from-black/10 via-black/80 to-black text-white">
+        <div className="py-20 my-20">
           <h1 className="lg:text-8xl font-bold text-4xl">
             ShayBeas <br />
             Enterprises
