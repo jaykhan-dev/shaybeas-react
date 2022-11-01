@@ -3,9 +3,6 @@ const Referrals = () => {
     <section className="">
       <div className="flex justify-center bg-black text-white">
         <div className="lg:w-2/3">
-          <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-lg px-4 w-full my-8">
-            <button className="bg-black px-4 uppercase">Referrals</button>
-          </div>
           <div className="grid lg:grid-cols-2 gap-8 py-20">
             <div>
               <h1 className="lg:text-6xl text-2xl leading-10">

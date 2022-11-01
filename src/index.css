@@ -28,16 +28,20 @@ html {
   overflow-x: hidden;
 }
 
-#footer-bg {
-  background-image: url('./assets/wallpaper3.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #hero-bg {
   background-image: url('./assets/landscape.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#get-started-section {
+  background-image: url('./assets/skyscrapers-100.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.small-text {
+  font-size: 12px;
 }

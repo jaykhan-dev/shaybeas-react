@@ -3,9 +3,6 @@ const Welcome = () => {
     <section className="" id="welcome-bg">
       <div className="text-white py-20 bg-black flex justify-center">
         <div className="grid place-items-center lg:w-2/3">
-          <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-lg px-4 w-full my-8">
-            <button className="bg-black px-4 uppercase">Welcome</button>
-          </div>
           <div className="grid lg:grid-cols-2 gap-4">
             <div>
               <h1 className="lg:text-6xl font-bold my-4">Get more closings!</h1>
