@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
+// import Layout from './components/Layout'
+import ResponsiveNav from './components/ResponsiveNav'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Footer from './components/Footer'
@@ -12,7 +13,7 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<ResponsiveNav />}>
             <Route index element={<Home />} />
             <Route path="login" element={<Login />} />
           </Route>

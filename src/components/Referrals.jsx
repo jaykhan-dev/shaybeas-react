@@ -1,28 +1,31 @@
+import Lottie from 'lottie-react'
+import RocketTrail from '../assets/lottie/rocketship-smoke-trail.json'
+
 const Referrals = () => {
   return (
-    <section className="">
-      <div className="flex justify-center bg-black text-white">
+    <section className="py-20">
+      <div className="flex justify-center">
         <div className="lg:w-2/3">
-          <div className="grid lg:grid-cols-2 gap-8 py-20">
+          <div className="grid place-items-center">
+            <h1 className="lg:text-4xl font-bold text-center">
+              Rest assured you&#39;re in good hands
+            </h1>
+            <p className="text-xl leading-10 text-gray-400 my-8 text-center lg:w-1/2">
+              You will no longer have to use old fashioned methods of finding
+              leads and trying to close them.
+            </p>
+          </div>
+          <div className="grid grid-cols-3">
+            {/* COL2 */}
             <div>
-              <h1 className="lg:text-6xl text-2xl leading-10">
-                We want to truly{' '}
-                <span className="italic font-serif">understand</span> if we can
-                bring you a massive amount of value
-              </h1>
-              <p className="text-xl leading-10 text-gray-400 my-8">
-                We help people move all over the country, military families,
-                corporate relocations, and then help you as an agent to grow
-                your personal space by helping our partnering agents aquire more
-                listings as well. This ensures that everyone gets the best
-                experience possible.
-              </p>
+              <Lottie animationData={RocketTrail} />
             </div>
-            <div className="space-y-10">
-              <div className="grid lg:grid-cols-3">
+            {/* COL2 */}
+            <div className="col-span-2 grid grid-cols-2">
+              <div className="">
                 <i className="fa-solid fa-phone-volume text-8xl"></i>
 
-                <div className="col-span-2">
+                <div className="">
                   <h3 className="font-bold text-2xl">Cold Calling</h3>
                   <p>
                     Are you wasting your time speaking with prospects that are
@@ -31,9 +34,9 @@ const Referrals = () => {
                 </div>
               </div>
 
-              <div className="grid lg:grid-cols-3">
+              <div className="">
                 <i className="fa-solid fa-hand-holding text-8xl"></i>
-                <div className="col-span-2">
+                <div className="">
                   <h3 className="font-bold text-2xl">Begging for Referrals</h3>
                   <p>
                     Keeping in touch with old clients to refer you with their

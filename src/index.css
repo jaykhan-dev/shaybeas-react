@@ -29,14 +29,28 @@ html {
 }
 
 #hero-bg {
-  background-image: url('./assets/landscape.jpg');
+  background-image: url('./assets/skyscrapers-100.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#get-started-section {
-  background-image: url('./assets/skyscrapers-100.jpg');
+#footer-bg {
+  background-image: url('./assets/abstract-lines.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#get-started {
+  background-image: url('./assets/nightsky.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login-bg {
+  background-image: url('./assets/landscape-moon.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
